@@ -1,7 +1,7 @@
 socks-go-runner
 ===============
 
-Run socks4/socks5 separately with [socks-go](https://github.com/a0s/socks-go).
+Run socks4/socks5 proxy separately with [socks-go](https://github.com/a0s/socks-go).
 
 Options
 -------
