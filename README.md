@@ -23,3 +23,9 @@ Usage
 ```shell script
 go run main.go --host 0.0.0.0 --port 11080 --socks4
 ```
+
+or
+
+```shell script
+docker run --rm -p 11080:11080 a00s/socks-go-runner --host 0.0.0.0 --port 11080 --socks4
+```
