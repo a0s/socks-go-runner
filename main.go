@@ -11,13 +11,13 @@ import (
 )
 
 var (
-	host          = flag.String("host", "127.0.0.1", "ip address to bind")
-	port          = flag.Uint64("port", 1080, "port number to bind")
+	host          = flag.String("host", "127.0.0.1", "bind to host")
+	port          = flag.Uint("port", 1080, "bind to port")
 	socks4Enabled = flag.Bool("socks4", false, "enable socks4")
 	socks5Enabled = flag.Bool("socks5", false, "enable socks5")
 )
 
-func buildAddressString(host string, port uint64) string {
+func buildAddressString(host string, port uint) string {
 	return fmt.Sprintf("%v:%v", host, port)
 }
 

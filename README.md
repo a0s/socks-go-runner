@@ -8,9 +8,9 @@ Options
 
 ```shell script
   -host string
-        ip address to bind (default "127.0.0.1")
+        bind to host (default "127.0.0.1")
   -port uint
-        port number to bind (default 1080)
+        bind to port (default 1080)
   -socks4
         enable socks4
   -socks5
