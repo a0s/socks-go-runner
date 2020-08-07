@@ -93,7 +93,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ github.event.release.upload_url }}
-          asset_path: h${{ steps.variables.outputs.REPOSITORY_NAME }}-armv6.tar.gz
+          asset_path: ${{ steps.variables.outputs.REPOSITORY_NAME }}-armv6.tar.gz
           asset_name: ${{ steps.variables.outputs.REPOSITORY_NAME }}-armv6.tar.gz
           asset_content_type: application/gzip
 
